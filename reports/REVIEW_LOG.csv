@@ -1,0 +1,7 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,xe sáng ở giữa khung hình,added,Tôi thấy cặp đèn và thân xe riêng mà pre-label bỏ sót; tôi chỉ khoanh thân xe và không lấy vệt sáng trên đường
+1,frame_0099.jpg,xe tối bị cắt ở mép dưới,added,Tôi thấy một phần thân xe còn trong ảnh nên dừng box ở biên ảnh theo guideline
+1,frame_0182.jpg,xe đi xa ở làn phải gần dải phân cách,added,Tôi thấy đèn và thân xe tách khỏi xe kế bên nhưng pre-label bỏ sót
+1,frame_0312.jpg,box AI lớn trùm nhiều xe ở làn phải (id 828),deleted,Tôi xóa box gộp nhiều xe và chồng các box riêng; guideline yêu cầu mỗi xe một box
+1,frame_0312.jpg,xe trước mặt làn giữa (id 825),accepted,Tôi giữ box vì cặp đèn thuộc cùng một thân xe và box không ôm vệt sáng phản chiếu
+1,frame_0392.jpg,xe tối cắt ở mép dưới bên trái,added,Tôi chỉ khoanh phần thân xe còn nhìn thấy trong ảnh
